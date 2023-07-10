@@ -1,0 +1,1 @@
+createBoard(20,20,30,["white","blue","green"],['red',3,3],[],[],[0])

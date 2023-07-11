@@ -1,0 +1,16 @@
+.tile {
+    opacity: 0.5;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Tangerine";
+}
+.X {
+    color: red !important;
+    background-color: blue !important;
+    pointer-events: none;
+}
+.O {
+    color: orange !important;
+    background-color: green !important;
+    pointer-events: none;
+}

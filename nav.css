@@ -1,0 +1,36 @@
+#navButton.expanded {
+    width: 75px;
+    height: 40px !important;
+    font-size: 13px;
+}
+#gamButton.menu.expanded {
+    top: 50px;
+}
+.menu {
+    z-index: 10;
+    position: absolute;
+    background-color: white;
+    border: '3px solid blue';
+    border-radius: 10px;
+    top: 1px;
+    transition: width 1s, height 1s, color 1s, font-size 1s, top 1s, opacity 1s;
+}
+.menu.contracted {
+    width: 0px;
+    height:0px;
+    font-size: 0px;
+    color: white;
+    top:1px;
+}
+.menu.expanded {
+    color:blue;
+}
+.menu.contracted:not(#navButton) {
+    opacity: 0;
+    pointer-events: none;
+    border: '0px';
+}
+.menu.expanded:not(#navButton) {
+    width:75px;
+    height:75px !important;
+}

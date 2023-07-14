@@ -15,7 +15,7 @@ function createButtons(attributes) {
 // HTML Creation
 [nactivate,games,home]=createButtons([['navButton','Navigation'],['gamButton','Games!'],['homButton','Home']])
 games.addEventListener('click',()=>{window.location.href = "https://sharkyweb-dotcom.github.io/BlissfulGaming/Tic-Tac-Toe/tic.html"})
-home.addEventListener('https://sharkyweb-dotcom.github.io/BlissfulGaming/')
+home.addEventListener('click',()=>{window.location.href='https://sharkyweb-dotcom.github.io/BlissfulGaming/'})
 
 // JS Functionality
 function pand() {

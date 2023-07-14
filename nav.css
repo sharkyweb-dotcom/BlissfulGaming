@@ -6,6 +6,9 @@
 #gamButton.menu.expanded {
     top: 50px;
 }
+#homButton.menu.expanded {
+    top: 140px
+}
 .menu {
     z-index: 10;
     position: absolute;
